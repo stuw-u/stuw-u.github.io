@@ -7,17 +7,40 @@ Online HTML, CSS and JavaScript editor to run code online.
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Browser</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Color Guesser</title>
 </head>
 
 <body>
-  <h1>
-    Write, edit and run HTML, CSS and JavaScript code online.
-  </h1>
-  <p>
-    Our HTML editor updates the webview automatically in real-time as you write code.
-  </p>
+  <div class="main-div">
+    <img class="title-img" src="Title.png">
+    <p class="info">
+      Guess a given color's RGB value.<br>
+      The closer you are, the higher the score.
+    </p>
+    <div class="button-row" id="button-row-id">
+      <a onclick="startNoSeed()" class="pill-button">Start</a>
+      <div class="seed-pack">
+        <a onclick="startWithSeed()" class="pill-button" style="border-radius: 30px 0px 0px 30px;">Start using seed</a>
+        <input type="number" id="seed-input" placeholder="Seed" oninput="checkValue()">
+      </div>
+    </div>
+    <div class="colors-wrap" id="color-wrap-id" style="display: none;">
+      <div class="color-display top" id="color-display-top-id">
+        <p id="result-color-rgb">(255, 0, 0)</p>
+        <p id="score" style="font-size: large">Accuracy: 25%</p>
+      </div>
+      <div class="color-display bottom" id="color-display-bottom-id">
+        <p>Your guess...</p>
+      </div>
+    </div>
+    <div class="color-row" id="color-row-id"" style="display: none;">
+      <input type="number" class="pill-input red" id="r-input" placeholder="R" min="0" max="255" step="1" oninput="checkValue()">
+      <input type="number" class="pill-input green" id="g-input" placeholder="G" min="0" max="255" step="1" oninput="checkValue()">
+      <input type="number" class="pill-input blue" id="b-input" placeholder="B" min="0" max="255" step="1" oninput="checkValue()">
+    </div>
+    <a id="guess-id" style="display: none;" onclick="guess()" class="pill-button guess-button">Make a guess!</a>
+  </div>
   <script src="script.js"></script>
 </body>
 

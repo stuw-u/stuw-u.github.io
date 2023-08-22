@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap');
+
+body {
+  font-family: 'Sora', sans-serif;
+  color: white;
+  background: rgb(0,0,0);
+  height: 100vh;
+  margin: 0;
+}
+
+p {
+  font-family: 'Sora', sans-serif;
+  font-size: x-large;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.info {
+  text-shadow: 
+    0px 2px 2px #ffd71f,
+    0px 4px 2px #239067,
+    0px 6px 2px #180a49;
+}
+
+.main-div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-div > * {
+  margin-bottom: 32px; /* 1em vertical spacing between child elements */
+}
+
+.title-img {
+  width: 100%;
+}
+
+.seed-pack,
+.button-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-row > * {
+  margin-right: 32px;
+}
+
+.pill-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 30px; /* Adjust the value to change the button's roundness */
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pill-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.color-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.color-row > *{
+  width: 100%;
+}
+.color-row > *:not(:last-child) {
+  margin-right: 32px;
+}
+
+
+.color-display {
+  border-radius: 30px;
+  height: 80px;
+  color:#000000;
+  padding: 32px;
+}
+
+.top {
+  border-radius: 30px 30px 0px 0px;
+}
+
+.bottom {
+  border-radius: 0px 0px 30px 30px;
+}
+
+.pill-input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  color: #000000; /* Black text color */
+  outline: none; /* Remove default focus outline */
+  font-family: 'Sora', sans-serif;
+  font-size: x-large;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#seed-input {
+  outline: none;
+  border: none;
+  border-radius: 0px 30px 30px 0px;
+  background-color: lightgray;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 60px;
+}
+
+.red {
+  background-color: #FF0000;
+}
+.red::placeholder {
+  color: #2c0000;
+}
+.red:focus,
+.red:hover {
+  background-color: #FF3333;
+}
+
+.green {
+  background-color: #00FF00;
+}
+.green::placeholder {
+  color: #002c00;
+}
+.green:focus,
+.green:hover {
+  background-color: #66FF66;
+}
+
+.blue {
+  background-color: #0000FF;
+}
+.blue::placeholder {
+  color: #00002c;
+}
+.blue:focus,
+.blue:hover {
+  background-color: #2222FF;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.guess-button {
+  width: 100%;
+  font-size: xx-large;
+  padding: 1em 0;
+  background: black;
+  color: white;
+  box-shadow: 0px 0px 2px 0px White;
+}
+.guess-button:hover {
+  text-decoration: underline dotted;
+  box-shadow: 0px 0px 2px 2px White;
+}
