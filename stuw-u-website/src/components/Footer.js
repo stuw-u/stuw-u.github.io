@@ -1,11 +1,11 @@
 import React from "react";
-import linkedinIcon from './assets/linkedin-icon.png';
-import githubIcon from './assets/github-icon.png';
-import instagramIcon from './assets/instagram-icon.png';
-import mailIcon from './assets/mail-icon.png';
+import linkedinIcon from '../assets/linkedin-icon.png';
+import githubIcon from '../assets/github-icon.png';
+import instagramIcon from '../assets/instagram-icon.png';
+import mailIcon from '../assets/mail-icon.png';
 
 
-function Footer () {
+export default function Footer () {
     return (
         <footer>
             <div className="footer-icons">
@@ -19,5 +19,3 @@ function Footer () {
         </footer>
     );
 }
-
-export default Footer;

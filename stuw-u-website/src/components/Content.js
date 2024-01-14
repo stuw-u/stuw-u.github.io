@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import bgImage from './assets/background.png';
+import bgImage from '../assets/background.png';
 
 const contentStyle = {
     background: `url(${bgImage})`,
@@ -7,7 +7,7 @@ const contentStyle = {
     backgroundRepeat: "repeat-y"
 };
 
-function Content ( props ) {
+export default function Content ( props ) {
     useEffect(() => {
         const contentWrap = document.getElementById('content-wrap');
         const content = document.getElementsByClassName('content')[0];
@@ -35,5 +35,3 @@ function Content ( props ) {
         </div>
     );
 }
-
-export default Content;

@@ -1,19 +1,25 @@
 import './App.css';
-import NavigationBar from './components/NavigationBar';
-import Content from './components/Content';
-import Footer from './components/Footer';
-import About from './components/About';
+import NavigationBar from "./components/NavigationBar"
+import Content from "./components/Content"
+import Footer from "./components/Footer"
+import About from './pages/About';
+import Projects from './pages/Projects';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
-function App() {
+export default function App() {
   return (
-    <div>
+    <>
       <NavigationBar />
         <Content>
-          <About />
+          <BrowserRouter>
+            <Routes>
+              <Route index element={<About />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/projects' element={<Projects />} />
+            </Routes>
+          </BrowserRouter>
         </Content>
       <Footer />
-    </div>
+    </>
   );
 }
-
-export default App;
