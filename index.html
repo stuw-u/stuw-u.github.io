@@ -2,17 +2,122 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <title>Antonin's Porfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Antonin's Porfolio</title>
+    <base target="_blank" rel="noopener noreferrer">
 </head>
 
 <body>
-  <div>
-    <h1>Antonin<br>Francoeur</h1>
-  </div>
-  <script src="script.js"></script>
+    <div class="top-bar">
+        <div class="logo">
+            <img src="assets/icon.png" class="nav-btn" alt="Logo" draggable="false">
+        </div>
+        <div class="menu">
+            <img src="assets/about.png" class="nav-btn" alt="About" draggable="false">
+            <img src="assets/projects.png" class="nav-btn" alt="Projects" draggable="false">
+            <img src="assets/articles.png" class="nav-btn" alt="Articles" draggable="false">
+            <img src="assets/gallery.png" class="nav-btn" alt="Gallery" draggable="false">
+            <img src="assets/contact.png" class="nav-btn" alt="Contact" draggable="false">
+        </div>
+    </div>
+
+    <div class="content">
+        <div id="content-wrap">
+            <p>My name is</p>
+            <p class="title">Antonin<br>Francoeur,</p>
+            <p>Software Developper, Game Developper<br>& Technical Artist.</p>
+    
+            <div class="content-box-1">
+                <p style="font-size: 15px; color: darkgray;">When did you start?</p>
+                <p>I started toying around with computers around 2015 and I've been making projects & games ever since.</p>
+            </div>
+    
+            <div class="content-box-2">
+                <p style="font-size: 15px; color: darkgray;">What are your strengths?</p>
+                <p>I am a generalist, with a strength in anything that bridges my passion for art & code. I make the two meet to achieve both performance and full creative control.</p>
+            </div>
+    
+            <div class="content-box-1">
+                <p style="font-size: 15px; color: darkgray;">What is your experience?</p>
+                <p>I have 9 years of personal experience, with 2 years of professional experience working at <a style="color: white;" href="https://propelvr.ca/">PropelVR</a> for clients such as Lockheed-Martin, Praticare, and the University of Ottawa.</p>
+            </div>
+    
+            <div class="content-tags">
+                <p style="font-size: 15px; color: darkgray;">Languages</p>
+                <div class="tags">
+                    <p class="tag">C#</p>
+                    <p class="tag">C++</p>
+                    <p class="tag">Java</p>
+                    <p class="tag">Python</p>
+                    <p class="tag">HLSL</p>
+                    <p class="tag">GLSL</p>
+                    <p class="tag">JS</p>
+                    <p class="tag">PHP</p>
+                    <p class="tag">Rust</p>
+                    <p class="tag">Go</p>
+                </div>
+            </div>
+    
+            <div class="content-tags">
+                <p style="font-size: 15px; color: darkgray;">Technologies</p>
+                <div class="tags">
+                    <p class="tag">Unity</p>
+                    <p class="tag">Unreal</p>
+                    <p class="tag">Renderdoc</p>
+                    <p class="tag">DirectX</p>
+                    <p class="tag">VR</p>
+                    <p class="tag">Quest 2</p>
+                    <p class="tag">Xcode</p>
+                    <p class="tag">Godot</p>
+                    <p class="tag">React</p>
+                    <p class="tag">Blender</p>
+                    <p class="tag">Substance painter</p>
+                </div>
+            </div>
+    
+            <div class="content-tags">
+                <p style="font-size: 15px; color: darkgray;">Strenghts</p>
+                <div class="tags">
+                    <p class="tag">Gameplay programming</p>
+                    <p class="tag">Technical art</p>
+                    <p class="tag">Procedural geometry</p>
+                    <p class="tag">Terrain systems</p>
+                    <p class="tag">Shaders</p>
+                    <p class="tag">Compute shaders</p>
+                    <p class="tag">Rendering systems</p>
+                    <p class="tag">Engine-adjacent systems</p>
+                    <p class="tag">Path-finding</p>
+                    <p class="tag">Physics</p>
+                    <p class="tag">Net-code</p>
+                    <p class="tag">Networking</p>
+                    <p class="tag">Optimising hot systems</p>
+                    <p class="tag">Multithreading</p>
+                    <p class="tag">ECS</p>
+                    <p class="tag">Jobs Systems</p>
+                </div>
+            </div>
+    
+            <div class="content-resume" id="follow-cursor" onclick="downloadPDF()">
+                <h2 style="text-align: center;">Grab a copy of my resume.</h2>
+                <img src="assets/download-icon.png" class="download-btn" alt="About" draggable="false">
+            </div>
+    
+            <footer>
+                <div class="footer-icons">
+                    <a href="https://www.linkedin.com/in/antonin-francoeur-462775220/"><img src="assets/linkedin-icon.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/stuw-u/"><img src="assets/github-icon.png" alt="Github"></a>
+                    <a href="https://www.instagram.com/anto.francoeur/"><img src="assets/instagram-icon.png" alt="Instagram"></a>
+                    <a href="/"><img src="assets/mail-icon.png" alt="Mail"></a>
+                </div>
+                
+                <p>Antonin Francoeur © 2024</p>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 
 </html>
