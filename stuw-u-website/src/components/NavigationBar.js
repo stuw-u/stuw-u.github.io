@@ -13,11 +13,11 @@ export default function NavigationBar() {
                 <img src={icon} className="nav-btn" alt="Logo" draggable="false"/>
             </div>
             <div className="menu">
-                <a href='/about' target='_self'><img src={about} className="nav-btn" alt="About" draggable="false"/></a>
-                <a href='/projects' target='_self'><img src={projects} className="nav-btn" alt="Projects" draggable="false"/></a>
-                <a href='/articles' target='_self'><img src={articles} className="nav-btn" alt="Articles" draggable="false"/></a>
-                <a href='/gallery' target='_self'><img src={gallery} className="nav-btn" alt="Gallery" draggable="false"/></a>
-                <a href='/contact' target='_self'><img src={contact} className="nav-btn" alt="Contact" draggable="false"/></a>
+                <a href='/#/about' target='_self'><img src={about} className="nav-btn" alt="About" draggable="false"/></a>
+                <a href='/#/projects' target='_self'><img src={projects} className="nav-btn" alt="Projects" draggable="false"/></a>
+                <a href='/#/articles' target='_self'><img src={articles} className="nav-btn" alt="Articles" draggable="false"/></a>
+                <a href='/#/gallery' target='_self'><img src={gallery} className="nav-btn" alt="Gallery" draggable="false"/></a>
+                <a href='/#/contact' target='_self'><img src={contact} className="nav-btn" alt="Contact" draggable="false"/></a>
             </div>
         </div>
     );

@@ -16,46 +16,46 @@ export default function Projects () {
             <p>Here are a sample of the projects I've worked on over the years. Some of them have been abandonned or put on hold, but all of them have brought me unvaluable experience. </p>
 
             <div className="project-grid">
-                <a href="/projects/pve" target='_self'><div className="project-grid-item">
+                <a href="/#/projects/pve" target='_self'><div className="project-grid-item">
                     <img src={outrPVEProject} alt="OUTR PVE Project" draggable="false" />
                     <span>PVE Project</span>
                 </div></a>
-                <a href="/projects/outerblast" target='_self'><div className="project-grid-item">
+                <a href="/#/projects/outerblast" target='_self'><div className="project-grid-item">
                     <video autoPlay loop muted>
                         <source src={outerblastProject} type="video/webm" />
                         Your browser does not support the video tag.
                     </video>
                     <span>OUTERBLAST</span>
                 </div></a>
-                <a href="/projects/monkey" target='_self'><div className="project-grid-item">
+                <a href="/#/projects/monkey" target='_self'><div className="project-grid-item">
                     <video autoPlay loop muted>
                         <source src={monkeyProject} type="video/webm" />
                         Your browser does not support the video tag.
                     </video>
                     <span>Monkey Project</span>
                 </div></a>
-                <a href="/projects/harold" target='_self'><div className="project-grid-item">
+                <a href="/#/projects/harold" target='_self'><div className="project-grid-item">
                     <video autoPlay loop muted>
                         <source src={haroldProject} type="video/webm" />
                         Your browser does not support the video tag.
                     </video>
                     <span>Harold vs Plants</span>
                 </div></a>
-                <a href="/projects/kart" target='_self'><div className="project-grid-item">
+                <a href="/#/projects/kart" target='_self'><div className="project-grid-item">
                     <video autoPlay loop muted>
                         <source src={racingProject} type="video/webm" />
                         Your browser does not support the video tag.
                     </video>
                     <span>Kart Project</span>
                 </div></a>
-                <a href="/projects/neovni" target='_self'><div className="project-grid-item">
+                <a href="/#/projects/neovni" target='_self'><div className="project-grid-item">
                     <video autoPlay loop muted>
                         <source src={neovniProject} type="video/webm" />
                         Your browser does not support the video tag.
                     </video>
                     <span>NEOVNI</span>
                 </div></a>
-                <a href="/projects/aquatic" target='_self'><div className="project-grid-item">
+                <a href="/#/projects/aquatic" target='_self'><div className="project-grid-item">
                     <video autoPlay loop muted>
                         <source src={aquaticProject} type="video/webm" />
                         Your browser does not support the video tag.
@@ -66,7 +66,7 @@ export default function Projects () {
                     <img src={scubaProject} alt="Under Pressure" draggable="false" />
                     <span>Under Pressure</span>
                 </div></a>
-                <a href="/projects/shoalarcarde" target='_self'><div className="project-grid-item">
+                <a href="/#/projects/shoalarcarde" target='_self'><div className="project-grid-item">
                     <img src={salmonProject} alt="Salmon Run Fangame" draggable="false" />
                     <span>Shoal Arcade</span>
                 </div></a>

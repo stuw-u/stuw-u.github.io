@@ -10,6 +10,11 @@ const whiteTextStyle = {
     color: "white"
 };
 
+const whiteTextStyleUnderline = {
+    color: "white",
+    textDecoration: "underline"
+};
+
 const centerTextStyle = {
     textAlign: "center"
 }
@@ -51,12 +56,12 @@ export default function About () {
     return (
         <>
             <p>My name is</p>
-            <p className="title">Antonin<br />Francoeur,</p>
-            <p>Software Developper, Game Developper<br />& Technical Artist.</p>
+            <p className="title">Antonin<br />Francoeur</p>
+            <p>Software Developer, Game Developer<br />& Technical Artist.</p>
 
             <div className="content-box-1">
                 <p style={questionStyle}>When did you start?</p>
-                <p>I started toying around with computers around 2015 and I've been making projects & games ever since.</p>
+                <p>I started toying with computers around 2015 and I've been making projects & games ever since.</p>
             </div>
 
             <div className="content-box-2">
@@ -66,7 +71,7 @@ export default function About () {
 
             <div className="content-box-1">
                 <p style={questionStyle}>What is your experience?</p>
-                <p>I have 9 years of personal experience, with 2 years of professional experience working at <a style={whiteTextStyle} href="https://propelvr.ca/">PropelVR</a> for clients such as Lockheed-Martin, Praticare, and the University of Ottawa.</p>
+                <p>I have 9 years of personal experience, with 2 years of professional experience working at <a style={whiteTextStyleUnderline} href="https://propelvr.ca/">PropelVR</a> for clients such as Lockheed-Martin, Praticare, and the University of Ottawa.</p>
             </div>
 
             <div className="content-tags">
