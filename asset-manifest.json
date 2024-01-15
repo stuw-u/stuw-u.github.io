@@ -1,24 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4fe94db.css",
-    "main.js": "/static/js/main.df839371.js",
+    "main.css": "/static/css/main.02acc359.css",
+    "main.js": "/static/js/main.62a11c7a.js",
     "static/media/project-haroldvsplants.webm": "/static/media/project-haroldvsplants.c82cd24e0bcbda586b7f.webm",
     "static/media/project-monkeyworms.webm": "/static/media/project-monkeyworms.b6928a6945b81c8a0aa9.webm",
     "static/media/project-aquatic.webm": "/static/media/project-aquatic.a475223bdb1ff4b425cf.webm",
     "static/media/project-racinggame.webm": "/static/media/project-racinggame.358879ae17e1ff559296.webm",
     "static/media/project-neovni.webm": "/static/media/project-neovni.f83b49850ee8468fe8b2.webm",
     "static/media/project-outerblast.webm": "/static/media/project-outerblast.fee37f56b4f944d3d6a1.webm",
+    "static/media/kaiba.mp4": "/static/media/kaiba.a2989b08dd4a6bd197c9.mp4",
+    "static/media/pve.mp4": "/static/media/pve.578a9d18dbefb3da4f21.mp4",
+    "static/media/creaturepit.mp4": "/static/media/creaturepit.49db64096a51d913aa0d.mp4",
     "static/media/project-outerpve.png": "/static/media/project-outerpve.c1c563f3d37993a40525.png",
     "static/media/project-underpressure.png": "/static/media/project-underpressure.cbaf576e31872b911c26.png",
     "static/media/background.png": "/static/media/background.6719be11ab30fae6f998.png",
+    "static/media/evil.mp4": "/static/media/evil.f5abf59c8d26dddb8205.mp4",
     "static/media/project-salmon.png": "/static/media/project-salmon.fb5b688fd3693c4191ac.png",
+    "static/media/angel.jpg": "/static/media/angel.fba48b8c1ec99b67d2ea.jpg",
+    "static/media/ai.jpg": "/static/media/ai.3ec9c0ae9683b2a2affb.jpg",
+    "static/media/spike.jpg": "/static/media/spike.ce24a117144af76b7984.jpg",
+    "static/media/color.jpg": "/static/media/color.4f9a668dc8272613adc9.jpg",
     "static/media/SpaceGrotesk-VariableFont_wght.ttf": "/static/media/SpaceGrotesk-VariableFont_wght.5771010795a77ba7459b.ttf",
+    "static/media/goobert.jpg": "/static/media/goobert.241d50facaaa33baae15.jpg",
+    "static/media/bug.jpg": "/static/media/bug.0ddd973655327bf2109f.jpg",
     "index.html": "/index.html",
-    "main.d4fe94db.css.map": "/static/css/main.d4fe94db.css.map",
-    "main.df839371.js.map": "/static/js/main.df839371.js.map"
+    "main.02acc359.css.map": "/static/css/main.02acc359.css.map",
+    "main.62a11c7a.js.map": "/static/js/main.62a11c7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4fe94db.css",
-    "static/js/main.df839371.js"
+    "static/css/main.02acc359.css",
+    "static/js/main.62a11c7a.js"
   ]
 }
