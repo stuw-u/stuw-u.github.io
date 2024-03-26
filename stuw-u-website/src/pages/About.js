@@ -22,7 +22,7 @@ const centerTextStyle = {
 export default function About () {
     const downloadPDF = () => {
         // Replace 'assets/resume.pdf' with the correct path to your PDF file
-        window.open("https://github.com/stuw-u/stuw-u.github.io/blob/development/Resume%20v4.pdf");
+        window.open("https://github.com/stuw-u/stuw-u.github.io/blob/development/Resume%20v5.pdf");
     }
 
     useEffect(() => {
