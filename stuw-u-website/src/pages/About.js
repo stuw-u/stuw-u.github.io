@@ -22,7 +22,7 @@ const centerTextStyle = {
 export default function About () {
     const downloadPDF = () => {
         // Replace 'assets/resume.pdf' with the correct path to your PDF file
-        window.open("https://media.licdn.com/dms/document/media/D4E2DAQGEAUntzxyEeg/profile-treasury-document-pdf-analyzed/0/1705019507963?e=1706140800&v=beta&t=O8hUa2B8aHr63dy4e70KqJh_6sO0TEM6NMsk29Li2tM");
+        window.open("https://github.com/stuw-u/stuw-u.github.io/blob/development/Resume%20v4.pdf");
     }
 
     useEffect(() => {
@@ -91,7 +91,7 @@ export default function About () {
             </div>
 
             <div className="content-tags">
-                <p style={questionStyle}>Technologies</p>
+                <p style={questionStyle}>Technologies / Tools</p>
                 <div className="tags">
                     <p className="tag">Unity</p>
                     <p className="tag">Unreal</p>
@@ -108,7 +108,7 @@ export default function About () {
             </div>
 
             <div className="content-tags">
-                <p style={questionStyle}>Strenghts</p>
+                <p style={questionStyle}>Strengths</p>
                 <div className="tags">
                     <p className="tag">Gameplay programming</p>
                     <p className="tag">Technical art</p>
